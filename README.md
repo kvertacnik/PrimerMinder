@@ -13,12 +13,12 @@ Inputs are a VCF file, the genome assembly the VCF is derived from, a list of ta
 
 Dependencies: pandas, Primer3-py, pyfaidx, yaml
 
-Import environment:
-'conda env create -f PrimerMinder_env.yml'
+Import environment
+`conda env create -f PrimerMinder_env.yaml`
 
 
 ## Usage
-'./PrimerMinder.py --reference_genome= --vcf= --marker_file= --range= --primer3_settings= > output.txt'
+`./PrimerMinder.py --reference_genome= --vcf= --marker_file= --range= --primer3_settings= > output.txt`
 
 
 - Reference_genome must be the same assembly used to generate the vcf file
