@@ -5,6 +5,9 @@ PrimerMinder (as in mind your surrounding polymorphisms) facilitates primer desi
 
 Inputs are a VCF file, the genome assembly the VCF is derived from, a list of target loci, Primer3 settings, and a user-specified flanking region. PrimerMinder searches the VCF for variants in the region, uses Primer3 to generate primers, and produces a visual alignment of the flanking region, target marker, adjacent snps, and predicted primers. Provided a list of markers, it will sort the markers by number of adjacent snps (lowest to highest).
 
+<div style="width:60px ; height:60px">
+![Example output](https://github.com/kvertacnik/PrimerMinder/blob/main/image.png)
+<div>
 
 ## Installation
 
